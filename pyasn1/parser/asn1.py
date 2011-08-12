@@ -326,7 +326,7 @@ reserved_words = ('BOOLEAN', 'BEGIN', 'INTEGER', 'END', 'BIT', 'DEFINITIONS',
 def reserved(word):
     return word in reserved_words
 
-Asn1Grammar1988 = OMeta.makeGrammar(asn1_grammar, globals(),'Asn1Grammar1988')
+Asn1Grammar1988 = OMeta.makeGrammar(asn1_1988_grammar, globals(),'Asn1Grammar1988')
 
 if __name__ == '__main__':
     import pprint
